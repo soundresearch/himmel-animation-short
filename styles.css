@@ -1,0 +1,139 @@
+.wrapper {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    height: 800px;
+    width: 900px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.rectangle-wrapper {
+    display: block;
+    position: absolute;
+    bottom: 120px;
+    right: 100px;
+    height: 450px;
+    width: 300px;
+    z-index: 0;
+}
+
+.door {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    width: 15px;
+    height: 180px;
+}
+
+.door-upper {
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+.door-lower {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+.bottom-left-wall {
+    position: absolute;
+    left: 0px;
+    top: 195px;
+    width: 15px;
+    height: 255px;
+    background-color: black;
+}
+
+.bottom-wall {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 15px;
+    background-color: black;
+}
+
+.right-wall {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15px;
+    height: 450px;
+    background-color: black;
+}
+
+.top-left-wall {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 15px;
+    background-color: black;
+}
+
+.top-right-wall {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 150px;
+    height: 15px;
+    background-color: black;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    top: -50px;
+    left: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.smallTriangle {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 38.104px solid black;
+    position: absolute;
+}
+
+.smallTriangleWrapper {
+    position: relative;
+    top: -100px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.bigTriangleWrapper {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    width: 70px;
+    height: 70px;
+}
+
+.bigTriangle {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 60px solid black;
+    position: absolute;
+}
